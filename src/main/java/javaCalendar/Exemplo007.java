@@ -6,7 +6,7 @@ public class Exemplo007 {
     public static void main(String[] args) {
 
         Calendar agora = Calendar.getInstance();
-
+/*
         System.out.println("%tc \n ", agora);
 
         System.out.println("%tF \n", agora);
@@ -16,6 +16,6 @@ public class Exemplo007 {
         System.out.println("%tr \n", agora);
 
         System.out.println("%tT \n", agora);
-
+*/
     }
 }

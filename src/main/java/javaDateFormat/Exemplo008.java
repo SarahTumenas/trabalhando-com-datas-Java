@@ -10,8 +10,8 @@ public class Exemplo008 {
         String dateToStr = DateFormat.getDateInstance().format(agora);
         System.out.println(dateToStr);
 
-        dateToStr = DateFormat.getDateInstance(DateFormat.LONG, DateFormat.SHORT).format(agora);
-        System.out.println(dateToStr);
+       /* dateToStr = DateFormat.getDateInstance(DateFormat.LONG, DateFormat.SHORT).format(agora);
+        System.out.println(dateToStr);*/
 
         dateToStr = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.SHORT).format(agora);
         System.out.println(dateToStr);
